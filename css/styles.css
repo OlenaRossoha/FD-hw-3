@@ -110,6 +110,9 @@ img {
 .hero {
   background: #2e2f42;
 }
+.hero-container {
+  padding: 188px 0 188px;
+}
 .hero-title {
   color: #ffffff;
   font-size: 56px;
@@ -117,13 +120,11 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  padding: 188px 0 188px;
+  max-width: 496px;
   margin: 0 auto 48px;
 }
-.hero-title-h1 {
-  max-width: 496px;
-}
-.hero-btn {
+
+hero-btn {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
