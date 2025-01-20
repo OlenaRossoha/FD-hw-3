@@ -108,7 +108,6 @@ img {
 /*section*/
 
 .hero-container {
-  padding: 188px 0 188px;
   background: #2e2f42;
 }
 .hero-title {
@@ -117,9 +116,11 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
-
+}
+.hero {
   margin: 0 auto 48px;
+  padding: 188px 0 0;
+  max-width: 496px;
 }
 .hero-btn {
   font-family: "Roboto", sans-serif;
@@ -133,13 +134,13 @@ img {
   border-radius: 4px;
   min-width: 169px;
   height: 56px;
-  margin: 0 auto 188px;
+  border: none;
 }
 .hero-buttons {
-  font-style: normal;
-  display: flex;
-  align-items: center;
+  padding: 0 0 188px;
+  text-align: center;
 }
+
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
