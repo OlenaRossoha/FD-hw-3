@@ -112,6 +112,7 @@ img {
 }
 .hero {
   padding: 188px 0;
+  text-align: center;
 }
 .hero-title {
   color: #ffffff;
@@ -137,11 +138,6 @@ img {
   height: 56px;
   border: none;
 }
-.hero-buttons {
-  padding: 0 0 188px;
-  text-align: center;
-}
-
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
