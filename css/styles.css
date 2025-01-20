@@ -107,8 +107,6 @@ img {
 }
 /*section*/
 
-.hero {
-}
 .hero-container {
   padding: 188px 0 188px;
   background: #2e2f42;
@@ -123,8 +121,7 @@ img {
   max-width: 496px;
   margin: 0 auto 48px;
 }
-
-hero-btn {
+.hero-btn {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -137,11 +134,12 @@ hero-btn {
   min-width: 169px;
   height: 56px;
   margin: 0 auto 188px;
+}
+.hero-buttons {
   font-style: normal;
   display: flex;
   align-items: center;
 }
-
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
