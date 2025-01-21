@@ -241,7 +241,7 @@ img {
   letter-spacing: 0.02em;
 }
 /*section3*/
-project {
+.container-project {
   padding: 120px 0 120px 0;
 }
 
@@ -262,6 +262,7 @@ project {
   padding-left: 16px;
   padding-right: 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .project-caption {
   font-size: 36px;
