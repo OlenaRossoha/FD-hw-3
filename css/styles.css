@@ -212,7 +212,7 @@ img {
   /* padding: 120px 0 0;*/
   margin-bottom: 72px;
 }
-.team-description {
+.container-team {
   padding-left: 16px;
   padding-right: 16px;
   text-align: center;
@@ -242,7 +242,7 @@ img {
 }
 /*section3*/
 project {
-  margin: 120px 0;
+  padding: 120px 0 120px 0;
 }
 
 .project-list {
