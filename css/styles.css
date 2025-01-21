@@ -213,11 +213,11 @@ img {
   margin-bottom: 72px;
 }
 .team-description {
-  padding-top: 32px;
-  padding-bottom: 32px;
   padding-left: 16px;
   padding-right: 16px;
   text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .team-heading-list {
   display: flex;
